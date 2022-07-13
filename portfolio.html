@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <main>
+        <nav>
+            <div>
+                <a class="link" href="index.html" target="_self" rel="prev">HOME</a>
+            </div>
+            <div class="param">
+                <div class="config-link"><a class="link" href="#" target="_self" rel="prev">ABOUT ME</a></div>
+                <div class="config-link"><a class="link" href="#" target="_self" rel="prev">WORKS</a></div>
+            </div>
+        </nav>
+        <section>
+            <div class="section-pai">
+                <img class="imagem" src="styles/img/About Me.svg" alt="About Me">
+                <div class="section-filho">
+                    <p>My name is Rafael Nóbrega, I am 20  years old and I am a Systems Analysis  and Development student at University Paulista. I'm good verbal communication, I like to work in a team and proactive.</p>
+                    <a class="btn-download" href="styles/arquivos/Curriculo.pdf"  target="_blank"><img src="styles/img/baixar.png" alt="download do currículo"> Curriculum</a>
+                    <div class="controleSeta">
+                        <div class="vazia"></div>
+                        <div class="seta">
+                            <div>WORKS</div>
+                            <img class="seta-baixo" src="styles/img/seta.svg" alt="seta apontada para baixo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- <div class="skills">
+            <img src="styles/img/skills.svg" alt="">
+            <div class="iconSkills">
+                <img class="javascript" src="styles/img/js.svg" alt="">
+                <img class="html5" src="styles/img/html5.svg" alt="">
+                <img class="css3" src="styles/img/css3.svg" alt="">
+            </div>
+        </div> -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="styles/img-projects/sem projeto.svg" alt=""></div>
+              <div class="swiper-slide"><img src="styles/img-projects/sem projeto.svg" alt=""></div>
+              <div class="swiper-slide"><img src="styles/img-projects/sem projeto.svg" alt=""></div>
+              <div class="swiper-slide"><img src="styles/img-projects/sem projeto.svg" alt=""></div>
+              <div class="swiper-slide"><img src="styles/img-projects/sem projeto.svg" alt=""></div>
+              <div class="swiper-slide"><img src="styles/img-projects/sem projeto.svg" alt=""></div>
+              <div class="swiper-slide"><img src="styles/img-projects/sem projeto.svg" alt=""></div>
+              <div class="swiper-slide"><img src="styles/img-projects/sem projeto.svg" alt=""></div>
+              <div class="swiper-slide"><img src="styles/img-projects/sem projeto.svg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        <div id="contato">
+            <h2>Contact</h2>
+            <form action="get">
+                <div class="inputContact">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                </div>
+                <div class="inputContact">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </div>
+                <div class="inputContact">
+                    <label for="company"></label>
+                    <input type="text" name="company" id="company" placeholder="Company">
+                </div>
+                <div>
+                    <label for="name"></label>
+                    <input type="textarea" name="message" id="message" placeholder="Message">
+                </div>
+                <div class="enviar">
+                    <button type="submit">Send</button>
+                    <p>or</p>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5513981542326" target="_blank"><img src="styles/img/wpp.svg"></a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>made with by <span class="meunome>">Rafael Nóbrega</span></p>
+        <img src="styles/img/Star 1.svg">
+    </footer>
+
+<script src="scripts/projects.js"></script>
+</body>
+</html>
