@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     cursor: url("cursor/cursor.cur"), default;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 /* ::-webkit-scrollbar {
